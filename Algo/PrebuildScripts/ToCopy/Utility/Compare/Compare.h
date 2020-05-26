@@ -1,5 +1,5 @@
 #pragma once
-#include <iostream>
+#include "../Utility.h"
 
 template<typename T>
 bool Compare(const T& val1, const T& val2, bool verbose = true)

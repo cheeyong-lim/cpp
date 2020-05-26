@@ -1,6 +1,4 @@
-#include <iostream>
-#include <ratio>
-#include "Timer.h"
+#include "../Utility.h"
 
 Timer::Timer(const std::string& msg, const TYPE timeType) : done(false), message(msg), timerType(timeType)
 {

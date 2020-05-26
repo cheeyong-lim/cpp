@@ -1,6 +1,3 @@
-#include <vector>
-#include <iostream>
-#include <string>
 #include "Utility/Utility.h"
 
 int BinaryGap(int N) 
