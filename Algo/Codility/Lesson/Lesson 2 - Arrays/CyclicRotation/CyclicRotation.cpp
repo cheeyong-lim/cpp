@@ -67,4 +67,8 @@ int main()
         result = false;
     if(!TestCase(std::vector<int>{1}, 5, std::vector<int>{1}, v))
         result = false;
+ 
+    std::string str = result ? "Passed!" : "Failed!";
+    std::cout<< "***** Final Result *****"<<std::endl;
+    std::cout<<"Final Result : "<<str<<std::endl;
 }
